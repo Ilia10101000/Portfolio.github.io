@@ -3,7 +3,7 @@
     let textarea = document.getElementById('textarea')
     elem.addEventListener('click', function (event){
         event.preventDefault();
-        if(textarea.value){
+        if(textarea.value.trim()){
             alert('Когда я освою бекэнд я обязательно закреплю тут отправку))) пока просто можете поклацать)')
         } else {
             alert('Введите сообщение...')
